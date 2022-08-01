@@ -1,0 +1,176 @@
+/* GLOBAL STYLES */
+body {
+    background: #333;
+  }
+
+.container{
+  margin-top:5%;
+  margin-left:5%;
+  margin-right:5%;
+}
+.list-items{
+  display:flex;
+  gap:20%;
+  margin-left: 10%;
+  color:whitesmoke;
+}
+.list-item a{
+  color:whitesmoke;
+  text-decoration: none;
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter{
+  margin-top:7%;
+}
+
+.typewriter h1 { 
+  position: absolute;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid whitesmoke; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: whitesmoke }
+}
+.my-image{
+  position: absolute;
+  margin-left:50%;
+  margin-top:0%;
+}
+.my-image img{
+  
+  margin-left:70%;
+  width:300px;
+  height:300px;
+  border: 5px solid rgb(128, 78, 78);
+  animation-name: image;
+  animation-duration:2s;
+  animation-iteration-count: 900;
+}
+@keyframes image{
+  from {border-color: rgb(128, 78, 78);}
+  to{border-color: rgb(90, 33, 33);}
+}
+.aboutme{
+  width: 800px;
+  padding: 10px;
+  font-size: large;
+  font-family: Poppins;
+  position: absolute;
+  margin-top:3%;
+  color:whitesmoke;
+  line-height: 1.8;
+}
+.work-experience{
+  position: absolute;
+  margin-top:20%;
+  color:whitesmoke;
+  font-family: Poppins;
+}
+.work-2 ul li a{
+  color:whitesmoke
+}
+.myskill-sets{
+  position: absolute;
+  margin-top:58%;
+  color:whitesmoke;
+  line-height: 1.8;
+  font-family: Poppins;
+}
+.skills{
+  font-family: Poppins;
+  font-size: large;
+}
+.projects{
+  position:absolute;
+  margin-top: 75%;
+  color:whitesmoke;
+  font-family: Poppins;
+  font-size: large;
+}
+.project-list{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:30px 20px;
+  
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1; 
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #666;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-back h1{
+  font-size: 22px;
+}
+.flip-card-back h1 a{
+  color: white;
+  text-decoration: none;
+}
+.achievements{
+  position: absolute;
+  margin-top: 130%;
+  color:whitesmoke;
+  font-family: Poppins;
+  font-size: large;
+}
+.achievements ul{
+  line-height: 2.2;
+}
+.Aa li a{
+  color: whitesmoke;
+  text-decoration: none;
+}
