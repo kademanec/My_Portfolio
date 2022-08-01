@@ -181,13 +181,13 @@ body {
   }
   .container{
     margin-top:5%;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:2%;
+    margin-right:2%;
   }
   .list-items{
     display:flex;
     gap:20%;
-    margin-left: 5%;
+    margin-left: 0%;
     color:whitesmoke;
 
   }
@@ -199,7 +199,7 @@ body {
     width:150px;
     height:150px;
     margin-left:-50%;
-    margin-top:165%;
+    margin-top:160%;
   }
   .typewriter h1{
     font-size: 12px;
@@ -209,16 +209,16 @@ body {
     width: 300px;
   }
   .work-experience{
-    margin-top:105%;
+    margin-top:125%;
   }
   .myskill-sets{
-    margin-top:345%;
+    margin-top:520%;
   }
   .projects{
-    margin-top:400%;
+    margin-top:595%;
   }
 
   .achievements{
-    margin-top:1050%;
+    margin-top:1480%;
   }
 }
