@@ -174,3 +174,51 @@ body {
   color: whitesmoke;
   text-decoration: none;
 }
+
+@media  screen and (max-width:600px) and (min-width:390px){
+  body {
+    background: #333;
+  }
+  .container{
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+  }
+  .list-items{
+    display:flex;
+    gap:20%;
+    margin-left: 5%;
+    color:whitesmoke;
+
+  }
+  .list-item a{
+    color:whitesmoke;
+    text-decoration: none;
+  }
+  .my-image img{
+    width:150px;
+    height:150px;
+    margin-left:-50%;
+    margin-top:165%;
+  }
+  .typewriter h1{
+    font-size: 12px;
+  }
+  .aboutme{
+    font-size: 12px;
+    width: 300px;
+  }
+  .work-experience{
+    margin-top:105%;
+  }
+  .myskill-sets{
+    margin-top:345%;
+  }
+  .projects{
+    margin-top:400%;
+  }
+
+  .achievements{
+    margin-top:1050%;
+  }
+}
