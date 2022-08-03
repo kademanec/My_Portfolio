@@ -86,7 +86,7 @@ body {
 }
 .myskill-sets{
   position: absolute;
-  margin-top:60%;
+  margin-top:65%;
   color:whitesmoke;
   line-height: 1.8;
   font-family: Poppins;
@@ -97,7 +97,7 @@ body {
 }
 .projects{
   position:absolute;
-  margin-top: 77%;
+  margin-top: 82%;
   color:whitesmoke;
   font-family: Poppins;
   font-size: large;
@@ -162,7 +162,7 @@ body {
 }
 .achievements{
   position: absolute;
-  margin-top: 133%;
+  margin-top: 137%;
   color:whitesmoke;
   font-family: Poppins;
   font-size: large;
