@@ -162,7 +162,7 @@ body {
 }
 .achievements{
   position: absolute;
-  margin-top: 137%;
+  margin-top: 192%;
   color:whitesmoke;
   font-family: Poppins;
   font-size: large;
@@ -219,6 +219,6 @@ body {
   }
 
   .achievements{
-    margin-top:1470%;
+    margin-top:1598%;
   }
 }
